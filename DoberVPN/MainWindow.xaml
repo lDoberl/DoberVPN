@@ -1,0 +1,27 @@
+﻿<Window x:Class="DoberVPN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:DoberVPN"
+        mc:Ignorable="d"
+        Title="DoberVPN" MinHeight="327" MinWidth="242" MaxHeight="327" MaxWidth="242" Background="#FF322F2F" Closed="Window_Closed" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Source="/dobervpn.png" HorizontalAlignment="Left" Margin="13,5,0,5" Grid.ColumnSpan="2" Width="147"/>
+        <Button x:Name="settingsButton" Grid.Column="1" Background="{x:Null}" BorderBrush="{x:Null}" Click="settingsButton_Click" Margin="41,12,0,12" HorizontalAlignment="Left" Width="56">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="settings.png"/>
+            </StackPanel>
+        </Button>
+        <Frame x:Name="PageFrame" Grid.Row="1" Grid.ColumnSpan="2" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

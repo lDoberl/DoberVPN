@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "IsCWRgVS4yLf16bMyUYLAI/JJXZj1UtJASyme0gVx00MCeKOmB/0TlYZ1A0I+FWz8k6uTwRNWwrKqZ4Ke8Z61Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Documents\\Документы\\работа\\репетиторство\\1. не актуально\\Дмитрий 1 курс, C#\\DoberVPN\\DoberVPN\\DoberVPN\\DoberVPN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\extended.wpf.toolkit\\4.6.0\\extended.wpf.toolkit.4.6.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\hardcodet.notifyicon.wpf\\1.1.0\\hardcodet.notifyicon.wpf.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\htmlagilitypack\\1.11.59\\htmlagilitypack.1.11.59.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}
