@@ -1,60 +1,131 @@
-## DoberVPN: Secure and anonymous Internet access
+# 🐾 DoberVPN
 
-DoberVPN is a VPN program that provides secure and anonymous Internet access. It encrypts your traffic, hides your IP address, and allows you to bypass censorship to gain access to blocked content.
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/lDoberl/DoberVPN?color=blue)
+![GitHub issues](https://img.shields.io/github/issues/lDoberl/DoberVPN)
+![GitHub license](https://img.shields.io/github/license/lDoberl/DoberVPN)
 
-Main functions:
+## RU
 
-· Hiding the IP address: Surf the Internet anonymously and protect your privacy.
-· Circumvent censorship: Gain access to blocked content and geographically restricted sites.
-· Multiple servers: Choose from a wide range of servers around the world.
-· User-friendly interface: Easily set up and manage your VPN connection.
+**DoberVPN** — это простой и безопасный VPN-клиент, который помогает вам защищать ваше интернет-соединение, обходить блокировки и сохранять анонимность в сети. Все управление удобное, а настройка — быстрая.
 
-Advantages:
+---
 
-· Privacy: Keep your online activity private.
-· Freedom: Access content without restrictions.
+## ✨ Особенности
 
-How to use:
+* 🔒 **Защита данных:** шифрование интернет-трафика.
+* 🌐 **Анонимность:** скрывает ваш IP и местоположение.
+* ⚡ **Скорость:** оптимизирован для стабильного соединения.
+* 🖥️ **Кроссплатформенность:** поддержка Windows и других ОС.
+* 🐶 **Простой интерфейс:** интуитивно понятный и легкий в использовании.
 
-1. Download and install DoberVPN.
-2. Update the database.
-3. Click "Connect" to establish a VPN connection.
+---
 
-Join DoberVPN today and get freedom and security online!
+## 🚀 Установка
 
-Help:
+### 1️⃣ Использование готового релиза (рекомендуется)
 
-· Technical support (i@dobershow.ru )
+1. Перейдите в [раздел Releases](https://github.com/lDoberl/DoberVPN/releases).
+2. Скачайте последнюю версию `DoberVPN.exe`.
+3. Запустите файл и следуйте инструкциям.
 
-Thanks for choosing DoberVPN!
+### 2️⃣ Сборка из исходников
 
+```bash
+git clone https://github.com/lDoberl/DoberVPN.git
+cd DoberVPN
+# Следуйте инструкциям по сборке для вашей платформы
+```
 
-## DoberVPN: Безопасный и анонимный доступ к Интернету
+---
 
-DoberVPN - это  VPN-программа, которая обеспечивает безопасный и анонимный доступ к Интернету. Она шифрует ваш трафик, скрывает ваш IP-адрес и позволяет вам обходить цензуру, чтобы получить доступ к заблокированному контенту.
+## 🐾 Как пользоваться
 
-Основные функции:
+1. Запустите DoberVPN.
+2. Выберите сервер.
+3. Нажмите "Подключиться".
+4. Наслаждайтесь безопасным интернетом! 🌐
 
-· Скрытие IP-адреса: Анонимно серфите в Интернете и защитите свою конфиденциальность.
-· Обход цензуры: Получите доступ к заблокированному контенту и сайтам, ограниченным географически.
-· Многочисленные серверы: Выбирайте из широкого спектра серверов по всему миру.
-· Дружественный пользовательский интерфейс: Легко настраивайте и управляйте своим VPN-соединением.
+---
 
-Преимущества:
+## 💡 Советы
 
-· Конфиденциальность: Сохраняйте свою онлайн-активность в тайне.
-· Свобода: Получайте доступ к контенту без ограничений.
+* Обновляйте приложение до последней версии для максимальной безопасности.
+* Используйте сервера с низкой загрузкой для высокой скорости.
 
-Как использовать:
+---
 
-1. Загрузите и установите DoberVPN.
-2. Обновите базу данных.
-3. Нажмите "Подключиться", чтобы установить VPN-соединение.
+## 📄 Лицензия
 
-Присоединяйтесь к DoberVPN сегодня и получите свободу и безопасность в Интернете!
+Проект распространяется под лицензией MIT. Подробности в файле [LICENSE](LICENSE).
 
-Помощь:
+---
 
-· Техническая поддержка (i@dobershow.ru)
+## 🌟 Поддержка
 
-Спасибо за выбор DoberVPN!
+Если у вас есть вопросы или предложения — открывайте [Issues](https://github.com/lDoberl/DoberVPN/issues) или присылайте Pull Request.
+
+---
+
+## EN
+
+**DoberVPN** is a simple and secure VPN client that helps you protect your internet connection, bypass restrictions, and stay anonymous online. Easy to use and quick to set up.
+
+---
+
+## ✨ Features
+
+* 🔒 **Data Protection:** encrypts internet traffic.
+* 🌐 **Anonymity:** hides your IP and location.
+* ⚡ **Speed:** optimized for stable connection.
+* 🖥️ **Cross-platform:** supports Windows and other OS.
+* 🐶 **Easy Interface:** intuitive and user-friendly.
+
+---
+
+## 🚀 Installation
+
+### 1️⃣ Using the release (recommended)
+
+1. Go to the [Releases page](https://github.com/lDoberl/DoberVPN/releases).
+2. Download the latest `DoberVPN.exe`.
+3. Run the file and follow the instructions.
+
+### 2️⃣ Building from source
+
+```bash
+git clone https://github.com/lDoberl/DoberVPN.git
+cd DoberVPN
+# Follow the build instructions for your platform
+```
+
+---
+
+## 🐾 How to use
+
+1. Launch DoberVPN.
+2. Choose a server.
+3. Click "Connect".
+4. Enjoy secure internet! 🌐
+
+---
+
+## 💡 Tips
+
+* Keep the app updated for maximum security.
+* Use low-load servers for higher speed.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. Details in [LICENSE](LICENSE).
+
+---
+
+## 🌟 Support
+
+If you have questions or suggestions, open an [Issue](https://github.com/lDoberl/DoberVPN/issues) or submit a Pull Request.
+
+---
+
+> Сделано с ❤️ командой DoberVPN / Made with ❤️ by the DoberVPN team
