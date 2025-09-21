@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DoberVPN</title>
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="48x48" href="favicon.png?v=2">
+<link rel="shortcut icon" href="favicon.png?v=2">
+
+<meta name="yandex-verification" content="408b488f27ff6804">
+<meta name="google-site-verification" content="abcdef1234567890">
+
+<style>
+/* ====== Стили аналогично примеру ====== */
+body { margin:0; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#111827; color:#f3f4f6; line-height:1.6; overflow-x:hidden;}
+header { background:linear-gradient(135deg,#22c55e,#16a34a); padding:50px 20px 70px; text-align:center; border-bottom:6px solid #1f2937; border-radius:0 0 25px 25px; box-shadow:0 5px 20px rgba(0,0,0,0.6); position:relative; overflow:hidden;}
+header h1, header p { opacity:0; transform:translateY(30px); transition:opacity 1s ease, transform 1s ease;}
+header h1.visible, header p.visible { opacity:1; transform:translateY(0);}
+header h1 { font-size:2.8em; margin:0; color:#111827;}
+header p { font-size:1.2em; margin-top:10px; color:#1f2937;}
+#lang-btn, #back-btn { position:absolute; padding:8px 14px; border-radius:8px; cursor:pointer; font-weight:bold; transition:0.3s; }
+#lang-btn { top:15px; right:20px; background:#1f2937; color:#f3f4f6; border:2px solid #22c55e; }
+#lang-btn:hover { background:#22c55e; color:#111827; }
+#back-btn { top:15px; left:20px; background:#1f2937; color:#f3f4f6; border:2px solid #22c55e; text-decoration:none; display:flex; align-items:center; gap:6px; }
+#back-btn::before { content:"🏠"; }
+#back-btn:hover { background:#22c55e; color:#111827; transform:scale(1.05); }
+@keyframes spin { 0%{transform:rotate(0);}100%{transform:rotate(360deg);} }
+@keyframes glow { 0%{box-shadow:0 0 0px #22c55e;}50%{box-shadow:0 0 20px #22c55e;}100%{box-shadow:0 0 0px #22c55e;} }
+main { max-width:1100px; margin:50px auto; padding:0 20px;}
+section { background:#1f2937; padding:40px 30px; margin-bottom:40px; border-radius:14px; box-shadow:0 5px 18px rgba(0,0,0,0.6); transition:transform 0.3s, box-shadow 0.3s; opacity:0; transform:translateY(40px); }
+section.visible { opacity:1; transform:translateY(0); transition:opacity 0.8s ease, transform 0.8s ease; }
+section:hover { transform:scale(1.02); box-shadow:0 8px 25px rgba(0,0,0,0.8); }
+section h2 { color:#22c55e; margin-top:0; margin-bottom:15px; font-size:1.8em; }
+.features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+.feature-card { background:#111827; border:2px solid #22c55e; padding:20px; border-radius:12px; transition:transform 0.3s, background 0.3s; opacity:0; transform:translateY(30px); }
+.feature-card.visible { opacity:1; transform:translateY(0); transition:opacity 0.8s ease, transform 0.8s ease; }
+.feature-card:hover { transform:scale(1.05); background:#16a34a22; }
+a.button { display:inline-block; margin-top:20px; padding:14px 28px; background-color:#22c55e; color:#111827; text-decoration:none; border-radius:10px; font-weight:bold; transition:0.3s; }
+a.button:hover { background-color:#16a34a; transform:scale(1.05); }
+footer { text-align:center; padding:25px; margin-top:40px; color:#9ca3af; font-size:0.9em; border-top:1px solid #374151;}
+</style>
+</head>
+<body>
+
+<header>
+<a href="https://ldoberl.github.io/" id="back-btn">Домой</a>
+<h1 id="title">DoberVPN</h1>
+<p id="subtitle">Защитите ваш интернет и обойдите блокировки 🛡️</p>
+<button id="lang-btn">EN</button>
+</header>
+
+<main>
+<section>
+<h2 id="about-title">О проекте</h2>
+<p id="about-text">DoberVPN — это простой и безопасный VPN-клиент, который позволяет защитить интернет-соединение, сохранять анонимность и обходить блокировки.</p>
+</section>
+
+<section>
+<h2 id="features-title">Возможности</h2>
+<div class="features">
+<div class="feature-card" id="f1">✔ Шифрование интернет-трафика</div>
+<div class="feature-card" id="f2">✔ Скрытие IP и местоположения</div>
+<div class="feature-card" id="f3">✔ Высокая скорость соединения</div>
+<div class="feature-card" id="f4">✔ Поддержка Windows</div>
+<div class="feature-card" id="f5">✔ Простой и интуитивный интерфейс</div>
+<div class="feature-card" id="f6">✔ Поддержка двух языков (EN / RU)</div>
+</div>
+</section>
+
+<section>
+<h2 id="how-title">Как использовать</h2>
+<p id="how1">1. Скачайте готовый <b>exe-файл</b> из релизов.</p>
+<p id="how2">2. Запустите DoberVPN.</p>
+<p id="how3">3. Выберите сервер.</p>
+<p id="how4">4. Подключитесь и наслаждайтесь безопасным интернетом!</p>
+<a href="https://github.com/lDoberl/DoberVPN/releases" class="button" target="_blank" id="download-btn">⬇ Скачать</a>
+</section>
+
+<section>
+<h2 id="github-title">GitHub репозиторий</h2>
+<p id="github-text">Исходный код проекта открыт и доступен всем. Вы можете изучить его, предложить улучшения или создать свой форк.</p>
+<a href="https://github.com/lDoberl/DoberVPN" class="button" target="_blank" id="github-btn">🌍 Перейти на GitHub</a>
+</section>
+</main>
+
+<footer id="footer">&copy; 2025 DoberVPN. Все права защищены.</footer>
+
+<script>
+let lang="ru";
+const texts={
+ru:{title:"DoberVPN", subtitle:"Защитите ваш интернет и обойдите блокировки 🛡️", aboutTitle:"О проекте", aboutText:"DoberVPN — это простой и безопасный VPN-клиент, который позволяет защитить интернет-соединение, сохранять анонимность и обходить блокировки.", featuresTitle:"Возможности", f1:"✔ Шифрование интернет-трафика", f2:"✔ Скрытие IP и местоположения", f3:"✔ Высокая скорость соединения", f4:"✔ Поддержка Windows", f5:"✔ Простой и интуитивный интерфейс", f6:"✔ Поддержка двух языков (EN / RU)", howTitle:"Как использовать", how1:"1. Скачайте готовый <b>exe-файл</b> из релизов.", how2:"2. Запустите DoberVPN.", how3:"3. Выберите сервер.", how4:"4. Подключитесь и наслаждайтесь безопасным интернетом!", downloadBtn:"⬇ Скачать", githubTitle:"GitHub репозиторий", githubText:"Исходный код проекта открыт и доступен всем. Вы можете изучить его, предложить улучшения или создать свой форк.", githubBtn:"🌍 Перейти на GitHub", footer:"© 2025 DoberVPN. Все права защищены.", langBtn:"EN", backBtn:"Домой"},
+en:{title:"DoberVPN", subtitle:"Protect your internet and bypass restrictions 🛡️", aboutTitle:"About the Project", aboutText:"DoberVPN is a simple and secure VPN client that protects your internet connection, maintains anonymity, and bypasses restrictions.", featuresTitle:"Features", f1:"✔ Encrypt internet traffic", f2:"✔ Hide IP and location", f3:"✔ High-speed connection", f4:"✔ Windows support", f5:"✔ Simple and intuitive interface", f6:"✔ Multi-language support (EN / RU)", howTitle:"How to Use", how1:"1. Download the ready-to-use <b>exe file</b> from releases.", how2:"2. Run DoberVPN.", how3:"3. Choose a server.", how4:"4. Connect and enjoy secure internet!", downloadBtn:"⬇ Download", githubTitle:"GitHub Repository", githubText:"The project is open-source and available to everyone. You can explore it, suggest improvements, or create your own fork.", githubBtn:"🌍 Go to GitHub", footer:"© 2025 DoberVPN. All rights reserved.", langBtn:"RU", backBtn:"Home"}};
+
+document.getElementById("lang-btn").addEventListener("click",()=>{
+  const btn=document.getElementById("lang-btn");
+  btn.classList.add("spin","glow");
+  lang=lang==="ru"?"en":"ru";
+  const t=texts[lang];
+  document.getElementById("title").innerHTML=t.title;
+  document.getElementById("subtitle").innerHTML=t.subtitle;
+  document.getElementById("about-title").innerHTML=t.aboutTitle;
+  document.getElementById("about-text").innerHTML=t.aboutText;
+  document.getElementById("features-title").innerHTML=t.featuresTitle;
+  document.getElementById("f1").innerHTML=t.f1;
+  document.getElementById("f2").innerHTML=t.f2;
+  document.getElementById("f3").innerHTML=t.f3;
+  document.getElementById("f4").innerHTML=t.f4;
+  document.getElementById("f5").innerHTML=t.f5;
+  document.getElementById("f6").innerHTML=t.f6;
+  document.getElementById("how-title").innerHTML=t.howTitle;
+  document.getElementById("how1").innerHTML=t.how1;
+  document.getElementById("how2").innerHTML=t.how2;
+  document.getElementById("how3").innerHTML=t.how3;
+  document.getElementById("how4").innerHTML=t.how4;
+  document.getElementById("download-btn").innerHTML=t.downloadBtn;
+  document.getElementById("github-title").innerHTML=t.githubTitle;
+  document.getElementById("github-text").innerHTML=t.githubText;
+  document.getElementById("github-btn").innerHTML=t.githubBtn;
+  document.getElementById("footer").innerHTML=t.footer;
+  document.getElementById("lang-btn").innerHTML=t.langBtn;
+  document.getElementById("back-btn").innerHTML=t.backBtn;
+  setTimeout(()=>{btn.classList.remove("spin","glow");},800);
+});
+
+const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");}})},{threshold:0.2});
+document.querySelectorAll("section, .feature-card").forEach(el=>{observer.observe(el);});
+window.addEventListener("load",()=>{setTimeout(()=>{document.querySelector("header h1").classList.add("visible");},200);setTimeout(()=>{document.querySelector("header p").classList.add("visible");},600);});
+</script>
+
+</body>
+</html>
